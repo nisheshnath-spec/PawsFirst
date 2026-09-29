@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws First - Report a Stray</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .report-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    .form-buttons {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo"><img src="logo.png" style="height: 60px"></div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="adoptable-dogs.html">Adopt a Dog!</a></li>
+        <li><a href="report-stray.html">Report a Stray</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1 style="text-align: center">Found a Stray Dog?</h1>
+    <p style="text-align: center">Fill out the form below and we'll follow up</p>
+  </section>
+
+  <section class="intro">
+    <form method="get" action="#" class="report-form">
+
+      <div class="form-group">
+        <label for="details">Tell us about the dog you found (where, your name, phone number, and a description)</label>
+        <textarea id="details" name="details" rows="6" cols="40"></textarea>
+      </div>
+
+      <label>Is the dog currently contained?</label>
+      <div style = "padding-top: 10px">
+        <input type="radio" id="containedYes" name="contained" value="yes"> <label for="containedYes">Yes</label>
+        <input type="radio" id="containedNo" name="contained" value="no"> <label for="containedNo">No</label>
+      </div>
+
+      <div class="form-buttons">
+        <a href="report-stray.html" class="btn btn-secondary">Submit</a>
+      </div>
+
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Paws First. All rights reserved.</p>
+  </footer>
+
+</body class = "has-footer">
+</html>
