@@ -185,3 +185,7 @@ body {
 body.has-footer {
   padding-bottom: 80px;
 }
+.contact-bg {
+  background-image: url("images/background.png");
+  background-size: cover;
+}
