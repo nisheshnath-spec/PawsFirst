@@ -189,3 +189,45 @@ body.has-footer {
   background-image: url("images/background.png");
   background-size: cover;
 }
+
+@media (max-width: 600px) {
+  .site-header {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .site-nav a {
+    font-size: 10px;
+    margin-left: 5px;
+    line-height: 30px;
+  }
+
+  .hero-text,
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .meet-dogs h2 {
+    font-size: 32px;
+  }
+
+  .impact-stat {
+    font-size: 22px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+}
